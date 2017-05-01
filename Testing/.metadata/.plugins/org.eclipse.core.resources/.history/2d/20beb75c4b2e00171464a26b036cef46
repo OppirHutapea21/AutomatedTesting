@@ -1,0 +1,25 @@
+package stepDefinition;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+
+public class Test {
+	@Given("^Mengklik gambar img-problem$")
+	public void mengklik_gambar_img_problem() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    //throw new PendingException();
+	}
+
+	@When("^Setelah menekan button gambar img-problem$")
+	public void setelah_menekan_button_gambar_img_problem() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    //throw new PendingException();
+	}
+
+	@When("^Menampilkan (\\d+) pilihan$")
+	public void menampilkan_pilihan(int arg1) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    //throw new PendingException();
+	}
+}
